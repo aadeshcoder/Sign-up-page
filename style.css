@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Nunito:wght@200&family=Roboto:wght@100&family=Ubuntu:wght@300&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: gray;
+    height          : 100vh;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+}
+
+.container {
+    background-color: hsl(180, 4%, 83%);
+    /* height          : 800px; */
+    padding: 20px 0;
+    width           :500px;
+}
+
+.logo {
+    background-color: red;
+}
+
+.heading {
+    /* background-color: rgb(0, 126, 128); */
+}
+
+h2 {
+    text-align: center;
+}
+
+.grid-box {
+    display              : grid;
+    grid-template-columns: auto auto;
+    grid-template-rows   : repeat(6, auto);
+}
+
+.grid-item {
+    background-color: hsla(0, 0%, 98%, 0);
+    margin          : 10px;
+}
+
+.email-add,
+.phone-no,
+.password,
+.terms,
+.btn {
+    grid-column: 1 / span 2;
+}
+
+.first-name,
+.last-name,
+.email-add,
+.phone-no,
+.password,
+.terms,
+.btn {
+    padding: 2px 20px;
+}
+
+.email-add,
+.phone-no,
+.password {
+    display       : flex;
+    flex-direction: column;
+}
+
+/* msg */
+.msg {
+    font-weight: 50;
+    color      : hsl(30, 0%, 50%);
+    font-size  : 20px;
+}
+
+/* labels */
+label {
+    font-weight: bold;
+    font-size  : smaller;
+}
+
+.label-den{
+    color: red;
+}
+
+/* inputs */
+.input-box {
+    padding      : 10px;
+    border-radius: 5px;
+    border       : 1px solid rgb(117, 106, 106);
+    margin       : 8px 0;
+}
+
+/* button */
+.btn{
+    display         : flex;
+    justify-content : center;
+}
+
+.terms{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.btn button {
+    background-color: hsl(271, 76%, 40%);
+    border: 1px solid black;
+    color: white;
+    border-radius: 3px;
+    width    : 80%;
+    height   : 40px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+/* already acc */
+.ald-acc{
+    text-align: center;
+}
